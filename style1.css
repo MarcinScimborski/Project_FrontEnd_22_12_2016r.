@@ -1,22 +1,33 @@
 body{
-    font : 24px;
+    font-size : 24px !important;
     color: black;
+    text-align: center;
+    margin: 0 !important;
+}
+
+.main{
+    background: coral;
+    padding:1em;
 }
 
 #myBox {
     width: 100px;
     height: 100px;
     margin: 0 auto;
-    border: 2px solid black;
+    border: 3px solid black;
+    background: -webkit-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 0%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);    
 }
 
 
 span{
     text-align: center;
+    padding-bottom:1em !important;
+    
 }
 
 
 #clickCount:hover{
     color:red !important;
+    
 
 }
